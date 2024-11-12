@@ -13,7 +13,7 @@ class Cust_Win:
         lbl_title.place(x=0, y=0, width=1295, height=50)
 
         # ===================================== logo ===========================================================
-        img2 = Image.open(r"C:\Users\NIRJON\Documents\GitHub\Hotel-management-System\1633410403702hotel-images\hotel images\logohotel1.png")
+        img2 = Image.open(r"C:\Users\munaf\Documents\GitHub\Hotel-management-System\1633410403702hotel-images\hotel images\logohotel1.png")
         img2 = img2.resize((100, 40), Image.LANCZOS)
         self.photoimg2 = ImageTk.PhotoImage(img2)
 
