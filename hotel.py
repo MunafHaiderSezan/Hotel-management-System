@@ -83,7 +83,7 @@ class HotelManagementSystem:
 
 
         def cust_details(self):
-            self.new_window=Toplevel(self.root)
+            self.new_window= tk.Toplevel(self.root)
             self.app=Cust_Win(self.new_window)
 
     # Main execution
