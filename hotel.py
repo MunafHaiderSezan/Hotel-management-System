@@ -11,7 +11,7 @@ class HotelManagementSystem:
 
         # ==================================== 1st img ========================================================
         img1 = Image.open(
-            r"C:\Users\munaf\Documents\GitHub\Hotel-management-System\1633410403702hotel-images\hotel images\hotel1.png")
+            r"C:\Users\NIRJON\Documents\GitHub\Hotel-management-System\1633410403702hotel-images\hotel images\hotel1.png")
         img1 = img1.resize((1550, 140), Image.LANCZOS)
         self.photoimg1 = ImageTk.PhotoImage(img1)
 
@@ -20,7 +20,7 @@ class HotelManagementSystem:
 
         # ===================================== logo ===========================================================
         img2 = Image.open(
-            r"C:\Users\munaf\Documents\GitHub\Hotel-management-System\1633410403702hotel-images\hotel images\logohotel1.png")
+            r"C:\Users\NIRJON\Documents\GitHub\Hotel-management-System\1633410403702hotel-images\hotel images\logohotel1.png")
         img2 = img2.resize((230, 140), Image.LANCZOS)
         self.photoimg2 = ImageTk.PhotoImage(img2)
 
@@ -67,7 +67,7 @@ class HotelManagementSystem:
 
         # ====================================== right side image =============================================
         img3 = Image.open(
-            r"C:\Users\munaf\Documents\GitHub\Hotel-management-System\1633410403702hotel-images\hotel images\slide3.jpg")
+            r"C:\Users\NIRJON\Documents\GitHub\Hotel-management-System\1633410403702hotel-images\hotel images\slide3.jpg")
         img3 = img3.resize((1310, 590), Image.LANCZOS)
         self.photoimg3 = ImageTk.PhotoImage(img3)
 
@@ -76,7 +76,7 @@ class HotelManagementSystem:
 
         # ======================================= down images ==================================================
         img4 = Image.open(
-            r"C:\Users\munaf\Documents\GitHub\Hotel-management-System\1633410403702hotel-images\hotel images\myh.jpg")
+            r"C:\Users\NIRJON\Documents\GitHub\Hotel-management-System\1633410403702hotel-images\hotel images\myh.jpg")
         img4 = img4.resize((230, 210), Image.LANCZOS)
         self.photoimg4 = ImageTk.PhotoImage(img4)
 
@@ -84,7 +84,7 @@ class HotelManagementSystem:
         lblimg4.place(x=0, y=225, width=230, height=210)
 
         img5 = Image.open(
-            r"C:\Users\munaf\Documents\GitHub\Hotel-management-System\1633410403702hotel-images\hotel images\khana.jpg")
+            r"C:\Users\NIRJON\Documents\GitHub\Hotel-management-System\1633410403702hotel-images\hotel images\khana.jpg")
         img5 = img5.resize((230, 190), Image.LANCZOS)
         self.photoimg5 = ImageTk.PhotoImage(img5)
 
